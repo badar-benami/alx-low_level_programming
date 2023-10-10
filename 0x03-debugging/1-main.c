@@ -1,8 +1,8 @@
-clude <stdio.h>
+#include <stdio.h>
 
 /**
-* main - results in an unending loop.
-* Return: zero.
+* main-causes an infinite loop
+* Return: zero
 */
 
 int main(void)
@@ -13,10 +13,10 @@ int main(void)
 
 	i = 0;
 
-	/*while (i < 10) */
-	/*{ */
-	/*      putchar(i);*/
-	/*} */
+	/* while (i < 10)*/
+	/* {*/
+	/* putchar(i);*/
+	/* }*/
 
 	printf("Infinite loop avoided! \\o/\n");
 
