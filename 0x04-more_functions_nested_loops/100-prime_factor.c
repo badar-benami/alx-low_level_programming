@@ -2,8 +2,8 @@
 #include <math.h>
 
 /**
- * main -identifies and publishes the integer 612852475143's biggest prime factor.
- * and a new line after that.
+ * main-finds and prints the largest prime factor of the nmbr 612852475143.
+ * Followed by a new line.
  * Return: Always zero (Success).
  */
 int main(void)

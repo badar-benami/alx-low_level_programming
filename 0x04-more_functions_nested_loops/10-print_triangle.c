@@ -1,15 +1,15 @@
 #include "main.h"
+
 /**
- * print_triangle: generates a triangle and a new line.
- * @size:how big the triangle is.
+ * print_triangle-Prints a triangle,followed by a new Line.
+ * @size:Size of the triangle.
  */
 void print_triangle(int size)
 {
 	if (size <= 0)
 	{
 		_putchar('\n');
-	}
-	else
+	} else
 	{
 		int i, j;
 

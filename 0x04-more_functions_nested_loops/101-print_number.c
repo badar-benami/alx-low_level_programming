@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_nmbr-Prints an integer.
- * @n:number to be shown.
+ * print_number-prints an integer.
+ * @n:Integer to be printed.
  */
 void print_number(int n)
 {
