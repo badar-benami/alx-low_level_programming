@@ -8,7 +8,7 @@
  * @next: indicates the following node.
  *
  * Description: structure of a single linked list node.
- * for ALX project.
+ * for holberton project.
  */
 typedef struct list_s
 {
