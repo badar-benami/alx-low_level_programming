@@ -15,8 +15,8 @@
 
 listint_t *find_listint_loop(listint_t *head)
 {
-	/* Floyd's Cycle-Finding Algorithm Application */
-	/* Define two node pointers that point to the head node: slow_ptr and fast_ptr */
+	/*Floyd's Cycle-Finding Algorithm Application */
+	/*Define 2 node pointers that point to the head node: slow_ptr and fast_ptr*/
 	listint_t *slow_ptr = head, *fast_ptr = head;
 	/* If the list is empty or has only one node, return. NULL */
 	if (head == NULL || head->next == NULL)
@@ -40,7 +40,7 @@ listint_t *find_listint_loop(listint_t *head)
 	/* If there is no loop, return NULL*/
 	if (slow_ptr != fast_ptr)
 		return (NULL);
-	/* If a loop occurs, start slow_ptr from the head and fast_ptr from the meet point */
+	/*If a loop occurs,start slow_ptr from the head and fast_ptr from the meet .*/
 	slow_ptr = head;
 	while (slow_ptr != fast_ptr)
 	{
